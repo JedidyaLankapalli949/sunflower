@@ -124,6 +124,7 @@ dependencies {
   implementation(libs.hilt.android)
   implementation(libs.hilt.navigation.compose)
   implementation(libs.androidx.profileinstaller)
+  implementation("com.instana:android-agent:6.0.+")
 
   // Compose
   implementation(platform(libs.androidx.compose.bom))
